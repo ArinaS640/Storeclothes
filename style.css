@@ -1,0 +1,65 @@
+
+html {
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 1133px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.doflex {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    display: inline-flex;
+    border-radius: 50px 50px 0px 0px;
+}
+header h2 {
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+}
+section h3 {
+    text-transform: uppercase;
+    position: relative;
+    margin: 0
+}
+nav p {
+    margin-right: 25px;
+}
+nav{
+    width: 65%;
+    flex-wrap: wrap;
+    max-width: 527px;
+}
+header .container{
+    justify-content: space-between;
+}
+i{
+    margin-right: 36px;
+}
+.bgsection{
+    background-image: url("./11.png");
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 745px;
+    padding-right: 20px;
+}
+section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+h3{
+    padding-right: 246px;
+    padding-bottom: 266px;
+}
